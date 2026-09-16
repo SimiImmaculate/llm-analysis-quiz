@@ -1,9 +1,10 @@
 import random
 import re
+import os
 from openai import OpenAI
 
 # AIPipe or OPENAI API KEY
-client = OpenAI(api_key="eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZHMyMDAwMDQwQGRzLnN0dWR5LmlpdG0uYWMuaW4ifQ.eC8clrU1hOvxB_XYteAVMQfNtjN-cbyzn2GHNjJhLm0")
+client = OpenAI(api_key=os.getenv("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZHMyMDAwMDQwQGRzLnN0dWR5LmlpdG0uYWMuaW4ifQ.eC8clrU1hOvxB_XYteAVMQfNtjN-cbyzn2GHNjJhLm0"))
 
 def load_list(path):
     with open(path, "r", encoding="utf-8") as f:

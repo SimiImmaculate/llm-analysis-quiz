@@ -244,10 +244,3 @@ When deploying or running the application, provide sensitive values through the 
 M.Sc. Mathematics | Data Science & Machine Learning
 
 GitHub: [SimiImmaculate](https://github.com/SimiImmaculate)
-Author
-
-Simi Immaculate
-
-M.Sc. Mathematics | Data Science & Machine Learning
-
-GitHub: SimiImmaculate
